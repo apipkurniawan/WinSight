@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 
-import { PrimeNgModule } from './prime-ng.module';
-
+import { PrimeNgModule } from '@app/shared/prime-ng.module';
 @NgModule({
   imports: [PrimeNgModule],
   exports: [PrimeNgModule],
