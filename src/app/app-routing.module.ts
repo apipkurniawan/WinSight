@@ -55,23 +55,23 @@ const routes: Routes = [
       },
     ],
   },
-  {
-    path: 'auth',
-    // component: '',
-    // loadChildren: '',
-  },
-  {
-    path: 'unauthorized',
-    // component: '',
-  },
-  {
-    path: 'landingpage',
-    // component: '',
-  },
-  {
-    path: '**',
-    // component: '',
-  },
+  // {
+  //   path: 'auth',
+  //   component: '',
+  //   loadChildren: '',
+  // },
+  // {
+  //   path: 'unauthorized',
+  //   component: '',
+  // },
+  // {
+  //   path: 'landingpage',
+  //   component: '',
+  // },
+  // {
+  //   path: '**',
+  //   component: '',
+  // },
 ];
 
 @NgModule({
