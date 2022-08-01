@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ModulLink } from '@app/core/enums/module.enum';
+import { MainLayoutComponent } from '@app/shared/layout/app-layout/main-layout.component';
 
 const routes: Routes = [
   {
     path: '',
-    // component: '',
-    canActivate: [],
+    component: MainLayoutComponent,
+    // canActivate: [],
     data: { pageTitle: 'Home' },
     children: [
       {
@@ -23,7 +24,7 @@ const routes: Routes = [
           import('@app/features/+data-master/data-master.module').then(
             (m) => m.DataMasterModule
           ),
-        canActivate: [],
+        // canActivate: [],
         data: { pageTitle: 'Data-Master' },
       },
       {
@@ -32,7 +33,7 @@ const routes: Routes = [
           import(
             '@app/features/+regular-transaction/regular-transaction.module'
           ).then((m) => m.RegularTransactionModule),
-        canActivate: [],
+        // canActivate: [],
         data: { pageTitle: 'Regular-Transaction' },
       },
       {
@@ -41,7 +42,7 @@ const routes: Routes = [
           import(
             '@app/features/+back-office-transaction/back-office-transaction.module'
           ).then((m) => m.BackOfficeTransactionModule),
-        canActivate: [],
+        // canActivate: [],
         data: { pageTitle: 'Back-Office-Transaction' },
       },
       {
@@ -50,7 +51,7 @@ const routes: Routes = [
           import(
             '@app/features/+special-transaction/special-transaction.module'
           ).then((m) => m.SpesialTransactionModule),
-        canActivate: [],
+        // canActivate: [],
         data: { pageTitle: 'Special-Transaction' },
       },
     ],
