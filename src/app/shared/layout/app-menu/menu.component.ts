@@ -27,20 +27,12 @@ export class MenuComponent implements OnInit {
             icon: 'pi pi-fw pi-bookmark',
             items: [
               {
-                label: 'Submenu 1.1',
+                label: 'Administration - User',
                 icon: 'pi pi-fw pi-bookmark',
-                items: [
-                  { label: 'Submenu 1.1.1', icon: 'pi pi-fw pi-bookmark' },
-                  { label: 'Submenu 1.1.2', icon: 'pi pi-fw pi-bookmark' },
-                  { label: 'Submenu 1.1.3', icon: 'pi pi-fw pi-bookmark' },
-                ],
               },
               {
-                label: 'Submenu 1.2',
+                label: 'Administration - Role',
                 icon: 'pi pi-fw pi-bookmark',
-                items: [
-                  { label: 'Submenu 1.2.1', icon: 'pi pi-fw pi-bookmark' },
-                ],
               },
             ],
           },
@@ -49,19 +41,12 @@ export class MenuComponent implements OnInit {
             icon: 'pi pi-fw pi-bookmark',
             items: [
               {
-                label: 'Submenu 2.1',
+                label: 'MF - Subscription',
                 icon: 'pi pi-fw pi-bookmark',
-                items: [
-                  { label: 'Submenu 2.1.1', icon: 'pi pi-fw pi-bookmark' },
-                  { label: 'Submenu 2.1.2', icon: 'pi pi-fw pi-bookmark' },
-                ],
               },
               {
-                label: 'Submenu 2.2',
+                label: 'MF - Redemption',
                 icon: 'pi pi-fw pi-bookmark',
-                items: [
-                  { label: 'Submenu 2.2.1', icon: 'pi pi-fw pi-bookmark' },
-                ],
               },
             ],
           },
@@ -70,19 +55,12 @@ export class MenuComponent implements OnInit {
             icon: 'pi pi-fw pi-bookmark',
             items: [
               {
-                label: 'Submenu 2.1',
+                label: 'Settlement',
                 icon: 'pi pi-fw pi-bookmark',
-                items: [
-                  { label: 'Submenu 2.1.1', icon: 'pi pi-fw pi-bookmark' },
-                  { label: 'Submenu 2.1.2', icon: 'pi pi-fw pi-bookmark' },
-                ],
               },
               {
-                label: 'Submenu 2.2',
+                label: 'Correction',
                 icon: 'pi pi-fw pi-bookmark',
-                items: [
-                  { label: 'Submenu 2.2.1', icon: 'pi pi-fw pi-bookmark' },
-                ],
               },
             ],
           },
@@ -91,19 +69,12 @@ export class MenuComponent implements OnInit {
             icon: 'pi pi-fw pi-bookmark',
             items: [
               {
-                label: 'Submenu 2.1',
+                label: 'Mass Redemption',
                 icon: 'pi pi-fw pi-bookmark',
-                items: [
-                  { label: 'Submenu 2.1.1', icon: 'pi pi-fw pi-bookmark' },
-                  { label: 'Submenu 2.1.2', icon: 'pi pi-fw pi-bookmark' },
-                ],
               },
               {
-                label: 'Submenu 2.2',
+                label: 'Maturity',
                 icon: 'pi pi-fw pi-bookmark',
-                items: [
-                  { label: 'Submenu 2.2.1', icon: 'pi pi-fw pi-bookmark' },
-                ],
               },
             ],
           },
@@ -112,19 +83,12 @@ export class MenuComponent implements OnInit {
             icon: 'pi pi-fw pi-bookmark',
             items: [
               {
-                label: 'Submenu 2.1',
+                label: 'Mutual Fund Transaction Reports',
                 icon: 'pi pi-fw pi-bookmark',
-                items: [
-                  { label: 'Submenu 2.1.1', icon: 'pi pi-fw pi-bookmark' },
-                  { label: 'Submenu 2.1.2', icon: 'pi pi-fw pi-bookmark' },
-                ],
               },
               {
-                label: 'Submenu 2.2',
+                label: 'Investor Reports',
                 icon: 'pi pi-fw pi-bookmark',
-                items: [
-                  { label: 'Submenu 2.2.1', icon: 'pi pi-fw pi-bookmark' },
-                ],
               },
             ],
           },
