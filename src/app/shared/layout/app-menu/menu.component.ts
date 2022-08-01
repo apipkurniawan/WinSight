@@ -6,6 +6,8 @@ import {
   PerfectScrollbarComponent,
   PerfectScrollbarDirective,
 } from 'ngx-perfect-scrollbar';
+import { SubMenuLink } from '@app/core/enums/sub-menu.enum';
+
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
@@ -39,6 +41,7 @@ export class MenuComponent implements OnInit {
               {
                 label: 'Administration - User',
                 icon: 'pi pi-fw pi-bookmark',
+                routerLink: [`/data-master/${SubMenuLink.AdministrasiUser}`],
               },
               {
                 label: 'Administration - Role',

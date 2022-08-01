@@ -1,8 +1,9 @@
 import { RouterModule, Routes } from '@angular/router';
+import { SubMenuLink } from '@app/core/enums/sub-menu.enum';
 
 export const routes: Routes = [
   {
-    path: 'administration-user',
+    path: SubMenuLink.AdministrasiUser,
     loadChildren: () =>
       import('./forms/administration-user/administration-user.module').then(
         (m) => m.AdministrationUserModule
