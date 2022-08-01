@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { LazyLoadEvent } from 'primeng/api';
 
 @Component({
   selector: 'app-administration-user',

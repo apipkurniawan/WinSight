@@ -36,72 +36,72 @@ export class MenuComponent implements OnInit {
         items: [
           {
             label: 'Data Master',
-            icon: 'pi pi-fw pi-bookmark',
+            icon: 'pi pi-fw pi-folder',
             items: [
               {
                 label: 'Administration - User',
-                icon: 'pi pi-fw pi-bookmark',
+                icon: 'pi pi-fw pi-file',
                 routerLink: [`/data-master/${SubMenuLink.AdministrasiUser}`],
               },
               {
                 label: 'Administration - Role',
-                icon: 'pi pi-fw pi-bookmark',
+                icon: 'pi pi-fw pi-file',
               },
             ],
           },
           {
             label: 'Regular Transaction',
-            icon: 'pi pi-fw pi-bookmark',
+            icon: 'pi pi-fw pi-folder',
             items: [
               {
                 label: 'MF - Subscription',
-                icon: 'pi pi-fw pi-bookmark',
+                icon: 'pi pi-fw pi-file',
               },
               {
                 label: 'MF - Redemption',
-                icon: 'pi pi-fw pi-bookmark',
+                icon: 'pi pi-fw pi-file',
               },
             ],
           },
           {
             label: 'Back Office Transaction',
-            icon: 'pi pi-fw pi-bookmark',
+            icon: 'pi pi-fw pi-folder',
             items: [
               {
                 label: 'Settlement',
-                icon: 'pi pi-fw pi-bookmark',
+                icon: 'pi pi-fw pi-file',
               },
               {
                 label: 'Correction',
-                icon: 'pi pi-fw pi-bookmark',
+                icon: 'pi pi-fw pi-file',
               },
             ],
           },
           {
             label: 'Special Transaction',
-            icon: 'pi pi-fw pi-bookmark',
+            icon: 'pi pi-fw pi-folder',
             items: [
               {
                 label: 'Mass Redemption',
-                icon: 'pi pi-fw pi-bookmark',
+                icon: 'pi pi-fw pi-file',
               },
               {
                 label: 'Maturity',
-                icon: 'pi pi-fw pi-bookmark',
+                icon: 'pi pi-fw pi-file',
               },
             ],
           },
           {
             label: 'Reporting',
-            icon: 'pi pi-fw pi-bookmark',
+            icon: 'pi pi-fw pi-folder',
             items: [
               {
                 label: 'Mutual Fund Transaction Reports',
-                icon: 'pi pi-fw pi-bookmark',
+                icon: 'pi pi-fw pi-file',
               },
               {
                 label: 'Investor Reports',
-                icon: 'pi pi-fw pi-bookmark',
+                icon: 'pi pi-fw pi-file',
               },
             ],
           },
