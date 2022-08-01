@@ -1,2 +1,39 @@
-<h5>User ID</h5>
-<input type="text" pInputText [(ngModel)]="userId">
+<p-panel header="Administration User">
+  <div class="field grid">
+    <label for="userId" class="col-fixed" style="width:80px">User ID</label>
+    <div class="col">
+      <input id="userId" type="text"
+        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary">
+    </div>
+  </div>
+  <div class="field grid">
+    <label for="name" class="col-fixed" style="width:80px">Name</label>
+    <div class="col">
+      <input id="name" type="text"
+        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary">
+    </div>
+  </div>
+  <p-button label="Search" icon="pi pi-search" [loading]="loadingSearch[0]" (onClick)="load(0)"></p-button>
+
+  <div style="margin-top: 15px; margin-bottom: 10px;">
+    <p-table [columns]="cols" [lazy]="true" (onLazyLoad)="loadCustomers()" [loading]="loadingTable" [value]="products"
+      responsiveLayout="scroll">
+      <ng-template pTemplate="header" let-columns>
+        <tr>
+          <th *ngFor="let col of columns">
+            {{col.header}}
+          </th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-rowData let-columns="columns">
+        <tr>
+          <td *ngFor="let col of columns">
+            {{rowData[col.field]}}
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+
+  <p-button label="Add User" icon="pi pi-plus" [loading]="loadingAdd[0]" (onClick)="loadAdd(0)"></p-button>
+</p-panel>
