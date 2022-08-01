@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: [],
 })
 export class AdministrationUserComponent implements OnInit {
+  userId: string;
+
   constructor() {}
   ngOnInit(): void {}
 }

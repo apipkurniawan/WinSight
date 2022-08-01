@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { PrimeNgModule } from '../prime-ng.module';
 import { FooterComponent } from './app-footer/footer.component';
@@ -33,9 +31,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   ],
   imports: [
     HttpClientModule,
-    BrowserAnimationsModule,
     PrimeNgModule,
-    BrowserModule,
     FormsModule,
     RouterModule,
     ConfigModule,

@@ -5,6 +5,7 @@ import { ButtonModule } from 'primeng/button';
 import { SidebarModule } from 'primeng/sidebar';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { InputSwitchModule } from 'primeng/inputswitch';
+import { InputTextModule } from 'primeng/inputtext';
 
 @NgModule({
   imports: [
@@ -13,6 +14,7 @@ import { InputSwitchModule } from 'primeng/inputswitch';
     SidebarModule,
     RadioButtonModule,
     InputSwitchModule,
+    InputTextModule,
   ],
   exports: [
     CardModule,
@@ -20,6 +22,7 @@ import { InputSwitchModule } from 'primeng/inputswitch';
     SidebarModule,
     RadioButtonModule,
     InputSwitchModule,
+    InputTextModule,
   ],
   declarations: [],
 })
